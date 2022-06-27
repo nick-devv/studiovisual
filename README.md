@@ -5,6 +5,8 @@
 Esse teste de Front-end foi desenvolvido em aproximadamente um dia de trabalho comercial (8 horas). O design do front-end implementado foi desenvolvido em aproximadamente 5h.
 
 Esse projeto também pode ser visualizado no servidor particular: [Teste Front-end](https://gabrielsousa.com.br/studiovisual/)
+Usuario: admin
+Senha: teste-front-end
 
 ## 🛠️ Tecnologias
 
@@ -26,12 +28,14 @@ Além disto é bom ter um editor, como o [VSCode](https://code.visualstudio.com/
 
 ## 🚀 Como executar
 
-1. Para começar, rode o servidor local e configure um banco de dados para associar ao wordpress do projeto. O banco de dados está na raiz do projeto (database.sql).
-2. Depois de importar o banco de dados correto, ative o plugin CFS (Custom Field Suite)
-3. Ative o tema criado do wordpress, Teste de Front-end
+1. Para começar, rode o servidor local e configure um wordpress e banco de dados. 
+2. Ative o plugin CFS (Custom Field Suite).
+3. Importe o conteudo desse repositorio dentro da pasta /themes em /wp-content.
+4. Importe o banco de dados que está na raiz do projeto (database.sql ou database.xml).
+5. Ative o tema criado do wordpress: Teste de Front-end.
 
 Uma segunda opção, também disponível na raiz do projeto (allinone.wordpress) é importar através do plugin All-in-one Migration.
-Para isso, instale o plugin All In One Migration, rode um emulador de url para que o caminho do wp instalado fique no formato "http://localhost:8888/teste-front-wp/" e importe o arquivo na tab "importar" do plugin.
+Para isso, instale o plugin All In One Migration, rode um emulador de url para que o caminho do wp instalado fique no formato "http://localhost:8888/teste-front-wp/" e importe o arquivo na tab "importar" do plugin. Se preferirem, podem exportar usando o All in One do projeto funcionando: [Teste Front-end](https://gabrielsousa.com.br/studiovisual/). 
 
 O projeto ja pode ser visualizado, contudo, para edita-lo, continue com os passos abaixo:
 
